@@ -1,0 +1,16 @@
+.from-bottom {
+  /* transform: translateY(0px);*/
+  opacity: 1;
+  transform: translateY(0);
+}
+.from-bottom > * {
+  transition: all 500ms;
+}
+.from-bottom.animations > * {
+  opacity: 0;
+  transform: translateY(250px);
+}
+
+/* .from-left:hover {
+  transform: translate(10px, 0);
+} */

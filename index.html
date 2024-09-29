@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil TP1</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <script src="assets/js/components/navigation.js" defer></script>
+    <script src="assets/js/pages/accueil.js" defer></script>
+    <script type="module" src="assets/js/pages/aPropos.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-principale">
+            <div>
+                <img class="logo" src="assets/img/fender-logo.png" alt="logo">
+            </div>
+            <div class="nav-right">
+                <a href="index.html">Accueil</a> <a href="formulaire.html">Formulaire</a> <a href="apropos.html">À propos</a> 
+            </div>
+            <nav id="dark-mode">
+                <div class="bouton" data-mode="dark">Mode sombre</div>
+                <div class="bouton" data-mode="light">Mode clair</div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="conteneur">
+            <section class="vedette">
+                <h1> </h1>
+                <div class="carte-vedette">    
+                    
+                    <img src="assets/img/precision-4-strings.jpg" alt="basse" id="imageVedette">
+
+                    <h2 class="titre-produit-vedette">Choisissez votre basse pour obtenir sa description</h2>
+                    <p class="description-produit-vedette">Description</p>
+                    <p class="prix-produit-vedette">prix</p>
+                    <a href="" class="button-produit-vedette"></a>
+                </div>
+            </section>
+            <section>
+                <div class="liste-header">
+                    <h2 class="titre-liste">Liste des basses</h2>
+                    <div class="liste-filtre">
+                        <span class="tri-ascendant">Tri ascendant</span><span class="tri-descendant">Tri descendant</span><span class="tri-prix">Tri par prix</span>
+                    </div>
+
+                </div>
+                <div class="liste-produits">
+                  
+                </div>
+            </section>
+            <footer>
+
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

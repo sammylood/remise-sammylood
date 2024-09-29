@@ -1,0 +1,15 @@
+.interactive {
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: none;
+  background-color: grey;
+  pointer-events: none;
+}
+
+
+
+.invisible {
+  display: none !important;
+}

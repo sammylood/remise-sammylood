@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accueil TP2</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script src="assets/js/pages/formulaire.js" defer></script>
+        <script src="assets/js/pages/aPropos.js" defer></script>
+    </head>
+    <body>
+        <!-- <header>
+            <nav><a href="formulaire.html">Formulaire d'achat</a></nav>
+        </header> -->
+        <header>
+            <div class="nav-principale">
+                <div>
+                    <img class="logo" src="assets/img/fender-logo.png" alt="logo">
+                </div>
+                <div class="nav-right">
+                   <a href="index.html">Accueil</a> <a href="formulaire.html">Formulaire</a> <a href="apropos.html">À propos</a>
+                </div>
+                <nav id="dark-mode">
+                    <div class="bouton" data-mode="dark">Mode sombre</div>
+                    <div class="bouton" data-mode="light">Mode clair</div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="conteneur formulaire">
+                <h1>Formulaire d'achat</h1>
+                <form action="" method="post" id="formulaire-client">
+                    <section data-panneau="1">
+                        <h2>Informations sur le client</h2>
+                        <div class="groupe-champs">
+                            <label for="nom">Nom complet</label>
+                            <input type="text" id="text" name="nom" required/>
+                          </div>
+                          <div class="groupe-champs">
+                            <label for="email">Courriel</label>
+                            <input type="email" id="email" name="email" required/>
+                          </div>
+                          <div class="groupe-champs">
+                            <label for="tel">téléphone</label>
+                            <input type="tel" id="tel" name="tel" required/>
+                          </div>
+                          <nav class="navigation-section">
+                            <!-- <button data-direction="-1">Précédent</button> -->
+                            <button data-direction="1">Suivant</button>
+                        </nav>
+                    </section>
+                    <section data-panneau="3">
+                        <h2>Informations sur la livraison</h2>
+                        <div class="groupe-champs">
+                            <label for="adresse">Adresse de livraison</label>
+                            <input type="text" id="text" name="adresse" />
+                          </div>
+                          <div class="groupe-champs">
+                            <label for="date">date de livraison</label>
+                            <input type="date" id="date" name="date" />
+                          </div>
+                          <div class="groupe-champs">
+                          <label for="select">instrument choisi</label>
+                          <select name="select" id="select" value="3">
+                            <option value="Basse 4 cordes droitier">Basse 4 cordes droitier</option>
+                            <option value="Basse 5 cordes droitier">Basse 5 cordes droitier</option>
+                            <option value="Basse 4 cordes gaucher">Basse 4 cordes gaucher</option>
+                            <option value="Basse 5 cordes gaucher">Basse 5 cordes gaucher</option>
+                          </select>
+                          </div>
+                          <div class="groupe-champs">
+                            <label for="ajouter-message">Voulez-vous ajouter un message à la commande?</label>
+                            <input type="checkbox" id="ajouter-message" name="ajouter-message" />
+                        </div>
+                        <div class="groupe-champs">
+                            <label for="message">Message de commande</label>
+                            <input type="text" id="message" name="message" maxlength="150" disabled />
+                        </div>
+                          <nav class="navigation-section">
+                            <button data-direction="-1">Précédent</button>
+                            <button data-direction="1">Suivant</button>
+                        </nav>
+                        
+                    </section>
+                    <section class="resume" data-panneau="">
+                        <h2>Résumé</h2>
+                        <p>
+                            Nom:
+                            <span data-name="nom"></span>
+                        </p>
+                        <p>
+                            Courriel:
+                            <span data-name="email" required></span>
+                        </p>
+                        <p>
+                            Tel:
+                            <span data-name="tel"></span>
+                        </p>
+                        <p>
+                            Adresse:
+                            <span data-name="adresse" required></span>
+                        </p>
+                        <p>
+                            Date de livraison:
+                            <span data-name="date" required></span>
+                        </p>
+                        <p>
+                            Instrument choisi:
+                            <span data-name="select" required></span>
+                        </p>
+                        <p>
+                            Ajout de message:
+                            <span data-name="ajouter-message" required></span>
+                        </p>
+                        <p>
+                            Message de commande:
+                            <span data-name="message" required></span>
+                        </p>
+
+                        <div class="groupe-champs">
+                            <label for="submit"></label>
+                            <input
+                              type="submit"
+                              id="submit"
+                              name="submit"
+                              value="Soumettre le formulaire"
+                            />
+                          </div>
+                          <nav class="navigation-section">
+                            <button data-direction="-1">Précédent</button>
+                            <!-- <button data-direction="1">Suivant</button> -->
+                        </nav>
+                    </section>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

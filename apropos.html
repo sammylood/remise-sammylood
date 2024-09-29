@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Page publicitaire - TP3</title>
+        <link rel="stylesheet" href="assets/css/aPropos.css" />
+        <script type="module" src="assets/js/pages/aPropos.js"></script>      
+    </head>
+    <body>
+        <!-- Section Header - Navigation -->
+        <header>
+            <div class="nav-principale">
+                <div>
+                    <img class="logo" src="assets/img/fender-logo.png" alt="logo">
+                </div>
+                <div class="nav-right">
+                   <a href="index.html">Accueil</a> <a href="formulaire.html">Formulaire</a> <a href="apropos.html">À propos</a>
+                </div>
+                <nav id="dark-mode">
+                    <div class="bouton" data-mode="dark">Mode sombre</div>
+                    <div class="bouton" data-mode="light">Mode clair</div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="aPropos">
+            <div class="contenant">
+                <!-- Section Entete: image pleine largeur -->
+                <section class="entete">
+                    <h1>Our legendary basses</h1>
+                </section>
+
+                <!-- Section 2 colonnes: Paragraphe - Carrousel  -->
+                <section class="colonnes_aPropos">
+                    <div class="from-bottom">
+                        <div>
+                            <h2>SYNONYMOUS WITH ALL THINGS ROCK N' ROLL</h2>
+                            <p><strong>Today, FMIC brands include Fender®, Squier®, Gretsch®, Jackson®, Charvel® and EVH® among others.</strong></p>
+                            <p>An American icon, Fender was founded in Southern California and has established a worldwide influence that extends from the studio to the stage—and beyond. Everyone from beginners to the world’s most acclaimed artists have used Fender instruments, amps and gear, making the company not only a revered industry leader but a cultural symbol that resonates globally. Nearly seven decades since founder Leo Fender built his first electric guitar, Fender’s reach transcends instruments and accessories, encompassing a range of innovative digital experiences that fuel musical expression and serve players at every stage–on every stage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="carrousel section from-bottom" data-carrousel>
+                            <div class="bouton" data-direction="-1">🞀</div>
+                            <div class="conteneur-image-principale">
+                                <img class="image-principale zoom" src="assets/img/marcus-miller-basses.jpg" alt="" />
+                            </div>
+            
+                            <!-- Le gabarit à utiliser -->
+                            <template id="conteneur-image-navigation">
+                                <div class="conteneur-image-navigation">
+                                    <img class="zoom" src="assets/img/aftermath.webp" alt="" />
+                                </div>
+                            </template>
+                            
+                            <div class="bouton" data-direction="1">🞂</div>
+                            <!-- La liste où placer le clone -->
+                            <div class="carrousel-liste-images"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section titre centré -->
+                <section class="titre-centre from-bottom">
+                    <div class="titre-centre-contenu">
+                        <p>The World's Largest Guitar Manufacturer</p>
+                        <h2>ABOUT FENDER</h2>
+                    </div>
+                </section>
+
+                <!-- Section 2 colonnes sombres  -->
+                <section class="colonnes_produits from-bottom">
+                    <div>
+                        <div><img class="zoom" src="assets/img/guitar.jpg" alt=""></div>
+                        <h2>TRANSFORMING MUSIC ONE GUITAR AT A TIME</h2>
+                        <p>Leo Fender wanted to craft an instrument that was as functional as it was easy to use. It was a primitive-looking object that was tough as nails, its powerful name inspired by another groundbreaking invention: the television. And with its revolutionary electrified tone, it would change the way music was made—forever. When someone asks, “Why Fender electrics?” the answer is clear. Fender guitars were designed to be louder, and exciting tones they produced are still engrained into our cultural DNA.</p>
+                        <a class="bouton general-margin">View electric guitar</a>
+                    </div>
+                    <div>
+                        <div><img class="zoom" src="assets/img/sting-bass.jpg" alt=""></div>
+                        <h2>THE FIRST WORD IN ELECTRIC BASS</h2>
+                        <p>In 1951, we wanted to liberate musicians from the confines of the upright bass. And we did it by introducing a brand-new instrument with a bold, new sound. That instrument was the Precision Bass®, a name that would not only become synonymous with rock ‘n’ roll, but also shape its very being. As time went on, we created new instruments to cater to a new, evolving type of musician: the electric bassist. Each one was and still is a driving force behind the greatest moment in music—of every era, of every genre. Period.</p>
+                        <a class="bouton general-margin">View electric bass</a>
+                    </div>
+                </section>
+                
+                <!-- Contenu de la fenêtre Popup (modale) -->
+                <div class="modale-conteneur">
+                    <div class="modale">
+                        <a href="formulaire.html"><img src="./assets/img/fender-promo-50pc.png" alt=""></a>
+                        <div class="fermer-modale interactive">𐌗 Fermer</div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    </body>
+</html>

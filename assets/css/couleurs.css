@@ -1,0 +1,14 @@
+/*--------------- THÈMES DARK ET LIGHT----------------*/
+:root {
+    --couleur-fond: white;
+    --couleur-fond-gris: #efefef;
+    --couleur-texte: black;
+    --couleur-primaire: #f91f2b;
+  }
+  
+  [data-theme="dark"] {
+    --couleur-fond: #252525;
+    --couleur-fond-gris: #3b3b3b;
+    --couleur-texte: rgb(255, 255, 255);
+  }
+  

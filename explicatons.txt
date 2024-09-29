@@ -1,0 +1,24 @@
+Fonctionnalités:
+Un popup interactif apparait sur la page après 5 secondes. Ensuite on voit l'image en pleine largeur sur la page. Au défilement vers le bas les sections apparaissent avec une petite animation vers le haut. Le carrousel permet de voir plusieurs photos et la possibilité de naviger manuellement entre chacune d'entre elles. Toutes les photos du bas de la page affichent en noir et blanc et changent en couleur avec un effet de zoom lorsqu'on survole par dessus avec la souris. 
+
+Choix de design:
+J'ai opté pour un design plus minimaliste en misant beaucoup sur les couleurs de la marque Fender ( rouge ), blanc et différentes teintes de gris foncé en évitant d'aller dans le noir pour que le contraste ne soit pas trop intense pour les yeux.
+
+Difficultés rencontrées:
+Ce qui m'a donné le plus de difficulté est le carrousel parce que j'avais manqué un peu quelques explications données en classe. J'ai du faire beaucoup de recherche pour pouvoir y arriver
+
+Structure de code:
+Dans mes fichiers Javascript, je me suis assuré de mettre les variables en premier dans mon fichier ensuite les selections HTML, pour ensuite ajouter les exécutions. 
+
+Organisation de fichiers:
+J'ai créé des dossiers pour les classes, les pages et les composantes javascript. J'ai aussi séparé mes fichiers CSS en plusieurs section afin d'intégrer seulement ce qui est vraiment nécessaire dans chaque page. Mes images sont aussi dans un dossier séparé, le tout dans un dossier nommé assets. 
+
+Tests de page:
+J'ai utilisé plusieurs console.log pour valider les différents éléments de mon code au fur et à mesure. J'ai aussi essayé de faire fonctionner mes fonctions sur différentes autres pages pour m'assurer que mon code soit modulaire et facile à intégrer pour la suite. 
+
+Qualité du code:
+J'ai utilisé l'extension "Prettier" pour garder mon code propre. J'ai activé également la sauvegarde automatitque ce qui m'assure que mon code est bien indenté.
+
+J'ai nommé mes fonctions de façon à ce que ça soit facile à lire pour quelqu'un d'autre qui voit mon code pour la première fois. J'ai mis des espaces entre mes sections de code pour faciliter la lecture.
+
+J'ai limiter les requêtes dans les header de mon fichier HTML.
